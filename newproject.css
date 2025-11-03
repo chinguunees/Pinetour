@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+body {
+  background-color: #a4d1e2;
+}
+.button:hover {
+  background-color: #18181be5;
+  color: white;
+}
+.plan1:hover {
+  box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
+}
+.roadmap1:hover {
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+}
+.roadmap1:hover + .zurag1 {
+  display: block;
+}
+.roadmap2:hover {
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+}
+.roadmap2:hover + .zurag2 {
+  display: block;
+}
+.zurag2 {
+  position: absolute;
+  left: 60%;
+  display: none;
+}
+.zurag3 {
+  position: absolute;
+  left: 70%;
+  display: none;
+}
+.zurag4 {
+  position: absolute;
+  left: 70%;
+  top: 50%;
+  display: none;
+}
+.zurag5 {
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  display: none;
+}
+.roadmap3:hover + .zurag3 {
+  display: block;
+}
+.roadmap3:hover {
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+}
+.roadmap4:hover {
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+}
+.roadmap4:hover + .zurag4 {
+  display: block;
+}
+.roadmap5:hover {
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+}
+.roadmap5:hover + .zurag5 {
+  display: block;
+}
+.header {
+  background-image: url(./images/HeroImage.png);
+  height: 773px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+.headermenu {
+  display: flex;
+  position: fixed;
+  margin-top: 0px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-style: bold;
+  font-weight: 600;
+  word-spacing: 32px;
+}
+.headermenu2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+}
+.Gol {
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+}
+.location {
+  background-image: url(./images/Location23.png);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tommenu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 65px;
+}
+.menu1 {
+  background-image: url(./images/1.png);
+  display: flex;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 370px;
+  width: 275px;
+  background-size: cover;
+  border-radius: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  opacity: 77%;
+  font-size: 37px;
+  text-shadow: 2px 2px black;
+  box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
+}
+/* .rectangle1 {
+  height: 370px;
+  width: 275px;
+  border-radius: 40px;
+  background-color: #1f72aa75;
+  position: absolute;
+  top: 81%;
+  left: 11.5%;
+} */
+.menu1:hover {
+  opacity: 100%;
+  background-color: #333333;
+}
+.menu2:hover {
+  opacity: 100%;
+  background-color: #333333;
+}
+.menu3:hover {
+  opacity: 100%;
+  background-color: #333333;
+}
+.menu4:hover {
+  opacity: 100%;
+  background-color: #333333;
+}
+.menu2 {
+  background-image: url(./images/2.png);
+  display: flex;
+  height: 370px;
+  width: 275px;
+  background-size: cover;
+  border-radius: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  opacity: 77%;
+  font-size: 37px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px black;
+  box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
+}
+.menu3 {
+  background-image: url(./images/3.png);
+  display: flex;
+  height: 370px;
+  width: 275px;
+  background-size: cover;
+  border-radius: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  opacity: 77%;
+  font-size: 37px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px black;
+  box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
+}
+.menu4 {
+  background-image: url(./images/4.png);
+  display: flex;
+  background-size: cover;
+  height: 370px;
+  width: 275px;
+  border-radius: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  opacity: 77%;
+  font-size: 37px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px black;
+  box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
+}
+.roadmap {
+  height: 1022px;
+  font-family: "Inter", sans-serif;
+  background-image: url(./images/Roadmapimage2.png);
+  background-size: cover;
+}
+.roadmaptext {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 120px;
+}
+.packy {
+  color: #18181bb2;
+}
+.roadmaps {
+  margin-top: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 120px;
+  margin-left: 350px;
+  gap: 20px;
+  font-size: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+.zurag1 {
+  position: absolute;
+  left: 50%;
+  display: none;
+}
+.rs2 {
+  display: flex;
+  align-items: center;
+}
+.rs3 {
+  display: flex;
+  align-items: center;
+}
+.roadmap1 {
+  width: 513px;
+  height: 112px;
+  background-color: #eee9d9;
+  border-radius: 40px;
+  color: #333333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 140px;
+}
+.roadmap2 {
+  width: 513px;
+  height: 112px;
+  background-color: #8bb8c1cc;
+  border-radius: 40px;
+  color: #333333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.roadmap3 {
+  width: 513px;
+  height: 112px;
+  background-color: #aad8d7cc;
+  border-radius: 40px;
+  color: #333333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 185px;
+}
+.roadmap4 {
+  width: 513px;
+  height: 112px;
+  background-color: #8bc0bdcc;
+  border-radius: 40px;
+  color: #333333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 140px;
+}
+.roadmap5 {
+  width: 513px;
+  height: 112px;
+  background-color: #97cce0cc;
+  border-radius: 40px;
+  color: #333333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 215px;
+}
+.day {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 52px;
+  width: 52px;
+  border-radius: 52px;
+}
+br {
+  font-size: 12px;
+}
+.footer {
+  background-image: url(./images/Price&Footer.png);
+  background-size: cover;
+  height: 1120px;
+}
+.footertext {
+  padding-top: 64px;
+  color: black;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.priceplan {
+  display: flex;
+  gap: 24px;
+  font-family: "Inter", sans-serif;
+  padding-top: 79px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.plan1 {
+  display: flex;
+  height: 527px;
+  width: 360px;
+  padding-top: 16px;
+  background-color: white;
+  border-radius: 40px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 24px;
+  font-family: "Inter", sans-serif;
+}
+.topplan {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+}
+.priceplan__list {
+  list-style: none;
+  font-size: 14px;
+  color: #3f4145;
+}
+.midplan {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.covertext {
+  color: #919191;
+  font-style: medium;
+  font-weight: 500;
+}
+.chinguun {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: SemiBold;
+}
+.bottomplan {
+  color: #121316;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.planlist {
+  color: #3f4145;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+.button {
+  width: 336px;
+  height: 48px;
+  text-align: center;
+  background-color: #a4d1e2;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.transport {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 14px;
+}
+.footermenu {
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  align-items: end;
+  gap: 740px;
+}
+.fb {
+  height: 44px;
+  width: 167px;
+  background-color: white;
+  font-size: 18px;
+  font-style: bold;
+  border-radius: 40px;
+  color: #6972b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  gap: 10px;
+}
+.insta {
+  height: 44px;
+  width: 167px;
+  background-color: white;
+  font-size: 18px;
+  font-style: bold;
+  border-radius: 40px;
+  color: #6972b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  gap: 10px;
+}
+.fbinsta {
+  display: flex;
+  gap: 20px;
+}
